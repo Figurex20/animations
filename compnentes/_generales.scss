@@ -1,0 +1,49 @@
+$color-claro: #ffffff;
+$color-primario: #333333;
+$color-secundario: #88da52;
+$color-variacion: #a54a38;
+$color-variacion2: #ce6962;
+$color-variacion3: #bf624c;
+
+body {
+	margin: 0;
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	place-items: center;
+	counter-reset: score;
+}
+
+input:checked {
+	counter-increment: score;
+}
+
+.total-count::after {
+	content: counter(score);
+}
+
+:root {
+	--dark-brown: #a54a38;
+	--light-brown: #bf624c;
+	--dark-green: #51af5e;
+	--light-green: #51af5e;
+	--shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	margin: 45px 0 10px;
+}
+
+.title img {
+	width: 60%;
+}
+
+.total-count {
+	color: var(--light-brown);
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	text-align: center;
+}

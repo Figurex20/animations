@@ -1,0 +1,119 @@
+.left-ear-- {
+	&outer {
+		position: absolute;
+		border-radius: 90%;
+		width: 20px;
+		height: 50px;
+		left: 10px;
+		top: 0;
+		background: $color-primario;
+	}
+	&inner {
+		border-radius: 90%;
+		width: 10px;
+		height: 50px;
+		position: absolute;
+		left: 15px;
+		top: 8px;
+		background: $color-variacion2;
+	}
+}
+.right-ear-- {
+	&outer {
+		position: absolute;
+		border-radius: 90%;
+		width: 20px;
+		height: 50px;
+		right: 10px;
+		top: 0;
+		background: $color-primario;
+	}
+	&inner {
+		border-radius: 90%;
+		width: 10px;
+		height: 50px;
+		position: absolute;
+		right: 15px;
+		top: 8px;
+		background: $color-variacion2;
+	}
+}
+
+.head {
+	border-radius: 50%;
+	height: 80px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: absolute;
+	top: 30px;
+	width: 100%;
+	background: $color-primario;
+	&__eye {
+		border-radius: 50%;
+		width: 9px;
+		height: 9px;
+		position: absolute;
+		top: 9px;
+		background: $color-claro;
+		&--left {
+			left: 30px;
+		}
+		&--right {
+			right: 30px;
+		}
+	}
+}
+
+.layer {
+	&-1 input[type='checkbox'] {
+		appearance: none;
+		cursor: pointer;
+		height: 50px;
+		margin: 0;
+		position: relative;
+		top: 0;
+		width: 80px;
+		z-index: 2;
+	}
+	&-2 input[type='checkbox'] {
+		appearance: none;
+		cursor: pointer;
+		height: 50px;
+		margin: 0;
+		position: relative;
+		top: 0;
+		width: 80px;
+		z-index: 2;
+	}
+	&-3 input[type='checkbox'] {
+		appearance: none;
+		cursor: pointer;
+		height: 50px;
+		margin: 0;
+		position: relative;
+		top: 0;
+		width: 80px;
+		z-index: 2;
+	}
+	&-4 input[type='checkbox'] {
+		appearance: none;
+		cursor: pointer;
+		height: 50px;
+		margin: 0;
+		position: relative;
+		top: 0;
+		width: 80px;
+		z-index: 2;
+	}
+	&-6 input[type='checkbox'] {
+		appearance: none;
+		cursor: pointer;
+		height: 50px;
+		margin: 0;
+		position: relative;
+		top: 0;
+		width: 80px;
+		z-index: 2;
+	}
+}
